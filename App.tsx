@@ -20,7 +20,7 @@ import {
   TOWER_STATS, 
   MOB_PATH 
 } from './constants';
-import { getBossFlavor } from './services/geminiService';
+import { getBossFlavor } from './geminiService';
 
 const PATH_WIDTH = 40;
 const CLICK_THRESHOLD = 5; // Pixels to distinguish click from drag
